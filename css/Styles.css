@@ -574,6 +574,7 @@ main {
 	max-width: 49.2%;
 	line-height: 170%;
 	color: #222320;
+	align-self: center;
 }
 
 .discounts-flex2 {
@@ -723,8 +724,10 @@ main {
 }
 
 .locals-ifelse-0 {
+	display: block;
+	max-width: 100%;
+	height: 39%;
 	position: relative;
-	max-width: 100%; 
 }
 
 .locals-ifelse {
@@ -745,7 +748,6 @@ main {
 }
 
 .ifelse-circle {
-	position: absolute;
 	top: 0;
 	left: 0;
 	background-color: transparent;
@@ -755,17 +757,16 @@ main {
 }
 
 .locals-ifelse-circle1 {
+	position: absolute;
 	width: 85%;
-	height: 133%;
-	left: 10px;
-	top: 20px;
+	height: 100%;
 }
 
 .locals-ifelse-circle2 {
+	position: absolute;
 	width: 85%;
-	height: 133%;
-	left: 85px;
-	top: 20px;
+	height: 100%;
+	margin-left: 10%;
 }
 
 .ifelse_h3 {
