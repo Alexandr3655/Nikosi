@@ -1272,17 +1272,7 @@ nav a:hover, nav a:active, nav a:focus {
 		top: 58px;
 		left: 20px;
 	}
-	.ifelse-circle {
-		width: 80%;
-	}
-	.locals-ifelse-circle1 {
-  		left: 25px;
-	}
 	
-	.locals-ifelse-circle2 {
-  		left: 95px;
-	}
-
 	.circle-orgevents-bg {
 		width: 140%;
 		height: 110%; 
@@ -1303,32 +1293,33 @@ nav a:hover, nav a:active, nav a:focus {
 	}
 	
 	.discounts-flex1 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+  		padding-top: 30px;
+  		padding-bottom: 30px;
+	}
+
 	.discounts {
 		padding-bottom: 30px;
 	}
 	
 	.local-h3 {
-  padding-top: 30px;
-  padding-bottom: 60px;
+  		padding-top: 30px;
+  		padding-bottom: 60px;
 	}
 	
 	.locals-text {
-  padding-top: 40px;
-  padding-bottom: 50px;
+  		padding-top: 40px;
+  		padding-bottom: 50px;
 	}
 	
 	.locals_3_count {
-  padding-bottom: 40px;
+  		padding-bottom: 40px;
 	}
 	
 	.kitchen-frame-flex {
 		flex-direction: column;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  justify-content: center;
+  		padding-top: 30px;
+  		padding-bottom: 30px;
+  		justify-content: center;
 	}
 	
 	.kitchen_h3 {
@@ -1345,7 +1336,7 @@ nav a:hover, nav a:active, nav a:focus {
 	}
 	
 	.orgevents-frame {
-  padding: 40px 15px;
+  		padding: 40px 15px;
 	}
 
 }
