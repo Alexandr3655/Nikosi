@@ -1352,59 +1352,50 @@ nav a:hover, nav a:active, nav a:focus {
 	}
 	
 	.circle-2 {
-  width: 128%;
-  height: 135%;
-  top: -60px;
-  left: -145px;
+  		width: 128%;
+  		height: 135%;
+  		top: -60px;
+  		left: -145px;
 	}
 	
 	.circle-discounts-bg {
-  width: 32%;
-  height: 23%;
-  top: 38px;
-  left: 20px;
- }
+  		width: 32%;
+  		height: 23%;
+  		top: 38px;
+  		left: 20px;
+ 	}
  
- .local-h3 {
-  padding-top: 30px;
-  padding-bottom: 40px;
- }
+ 	.local-h3 {
+  		padding-top: 30px;
+  		padding-bottom: 40px;
+ 	}		
  
- .locals-text {
-  padding-top: 30px;
-  padding-bottom: 20px;
- }
+ 	.locals-text {
+  		padding-top: 30px;
+  		padding-bottom: 20px;
+ 	}
  
- .locals_1_count_text1 {
-  padding-bottom: 30px;
+ 	.locals_1_count_text1 {
+  		padding-bottom: 30px;
 	}
 	
 	.locals_2_count {
-  padding-bottom: 20px;
+  		padding-bottom: 20px;
 	}
 	
-	.locals-ifelse-circle1 {
-		height: 127%;
-  left: 30px;
- }
- 
- .locals-ifelse-circle2 {
-		height: 127%;
-  left: 85px;
- }
- 
- .circle-orgevents-bg {
+	
+ 	.circle-orgevents-bg {
 		width: 140%;
 		height: 110%; 
-  top: -5px;
-  left: -130px;
+  		top: -5px;
+  		left: -130px;
 	}
 	
 	.circle-order-bg {
-  width: 72%;
-  height: 10%;
-  top: 73px;
-  left: 115px;
+  		width: 72%;
+  		height: 10%;
+  		top: 73px;
+  		left: 115px;
 	}
 
 
