@@ -958,6 +958,7 @@ main {
 .order_form { 
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	gap: 10px;
 	padding-bottom: 10px;
 }
@@ -994,11 +995,13 @@ input[type="text"]:active, input[type="tel"]:active  {
 }
 
 .order_form_submit_label {
-	max-width: 122px;
+	display: block;
+	max-width: 100px;
+	height: 55px;
 	color: #F8CEA5;
 	line-height: 170%;
 	text-align: left;
-	align-self: center;
+	align-items: center;
 }
 
 .order_form_text2 {
@@ -1575,6 +1578,19 @@ nav a:hover, nav a:active, nav a:focus {
 	}
 
 }
+
+
+@media screen and (max-width: 930px) {
+
+	.order_form {
+		max-width: 540px;
+	}
+
+	.contact-flex-column4 {
+		max-width: 215px;
+	}
+}
+
 
 @media screen and (max-width: 770px) {
 
