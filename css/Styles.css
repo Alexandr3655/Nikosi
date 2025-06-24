@@ -1586,9 +1586,99 @@ nav a:hover, nav a:active, nav a:focus {
 		max-width: 540px;
 	}
 
+	.contact-flex {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 10px;
+		text-align: center
+	}
+
+	.contact-flex-column1 {
+		max-width: none;
+	}
+
+	.contact-flex-column2 {
+		max-width: none;
+	}
+
+	.contact-flex-column3 {
+		max-width: none;
+	}
+
+	.contact-flex-column4 {
+		padding-top: 20px;
+		max-width: none;
+		display: grid;
+		grid-template-columns: repeat(4, 0.5fr);
+		grid-template-rows: repeat(4, 0.5fr);
+	}
+
+	.col4_1 {
+		grid-column: span 4;
+		padding-bottom: 0;
+	}
+
+	.col4_2 {
+		grid-column: span 4;
+	}
+
+	.AVK {
+		grid-column: 2 / 3;
+	}
+
+	.ahome {
+		grid-column: 2 / 3;
+	}
+
+	.contact-flex-column3 {
+		padding-bottom: 	8px;
+	}
+
+
+
+
+
+
+	.col4_btn_up {
+		margin-top: 0;
+	}
+/*
 	.contact-flex-column4 {
 		max-width: 215px;
 	}
+
+	.contact-flex {
+		justify-content: center;
+		align-items: flex-end;
+		padding-bottom: 20px;
+		max-width: 68%;
+		margin: 0 auto;
+	}
+
+	.contact-flex-column1 {
+		max-width: none;
+		width: 40%;
+	}
+
+	.contact-flex-column2 {
+		width: 40%;
+	}
+
+	.contact-flex-column3 {
+		margin-top: 5%;
+		width: 40%;
+	}
+	
+	.contact-flex-column4 {
+		margin-top: 5%;
+		max-width: none;
+		width: 40%;
+	}
+*/
+	.order {
+		background: #CF7B29 no-repeat center;
+	}
+
 }
 
 
