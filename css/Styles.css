@@ -1,133 +1,82 @@
 /*Обнуление CSS (HTML5 Doctor CSS Reset)*/
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
- margin:0;
- padding:0;
- border:0;
- outline:0;
- font-size:100%;
- vertical-align:baseline;
- background:transparent;
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, em, img, i, ul, li, form, label, 
+table, tr, th, td, footer, header, menu, nav, section {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
 }
 
 body {
- line-height:1;
+	line-height:1;
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
- display:block;
+footer,header,menu,nav,section {
+	display:block;
 }
 
 nav ul {
- list-style:none;
-}
-
-blockquote, q {
- quotes:none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
- content:'';
- content:none;
+	list-style:none;
 }
 
 a {
- margin:0;
- padding:0;
- font-size:100%;
- vertical-align:baseline;
- background:transparent;
- text-decoration: none;
-}
-
-ins {
-	background-color:#ff9;
-	color:#000;
-	text-decoration:none;
-}
-
-mark {
-	background-color:#ff9;
- color:#000;
- font-style:italic;
- font-weight:bold;
-}
-
-del {
- text-decoration: line-through;
-}
-
-abbr[title], dfn[title] {
- border-bottom:1px dotted;
- cursor:help;
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	text-decoration: none;
 }
 
 table {
- border-collapse:collapse;
- border-spacing:0;
+	border-collapse:collapse;
+	border-spacing:0;
 }
 
-hr {
- display:block;
- height:1px;
- border:0;  
- border-top:1px solid #cccccc;
- margin:1em 0;
- padding:0;
-}
-
-input, select {
- vertical-align:middle;
- outline: 0;
+input {
+	vertical-align:middle;
+	outline: 0;
 	outline-offset: 0; 
 }
 
 /*Вставка нового шрифта "PTRootUILight"*/
 @font-face { 
- font-family: "PTRootUILight";
- src: url("fonts/PT-Root-UI_Light.ttf") format("truetype");
- font-style: normal;
- font-weight: 400;
- font-display:swap;
+	font-display:swap;
+	src: url("fonts/PT-Root-UI_Light.ttf") format("truetype");
+	font-family: "PTRootUILight";
+	font-weight: 400;
+	font-style: normal;
 }
 
 /*Вставка нового шрифта "PlayfairDisplay normal"*/
 @font-face {
- font-family: "PlayfairDisplay";
- src: url("fonts/PlayfairDisplay.ttf") format("truetype");
- font-style: normal;
- font-weight: 400;
- font-display:swap; 
+	src: url("fonts/PlayfairDisplay.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+	font-display:swap; 
+	font-family: "PlayfairDisplay";
 }
 
 /*Вставка нового шрифта "PlayfairDisplay italic"*/
 @font-face {
- font-family: "PlayfairDisplay-Italic";
- src: url("fonts/PlayfairDisplay-Italic.ttf") format("truetype");
- font-style: italic;
- font-weight: 400;
- font-display: swap;
+	src: url("fonts/PlayfairDisplay-Italic.ttf") format("truetype");
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	font-family: "PlayfairDisplay-Italic";
 }
 
 /*Вставка границ box*/
 html{
- box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 *,*::before, *::after{
- box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 /*Font-face-PTRootUILight*/
@@ -910,7 +859,6 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-
 }
 
 .order-flex {
@@ -1081,6 +1029,7 @@ input[type="text"]:active, input[type="tel"]:active  {
 	font-weight: 400;
 	line-height: 170%;
 }
+
 nav a:hover, nav a:active, nav a:focus {
 	transition: 0.3sease;
     color: #CF7B29 !important;
@@ -1117,6 +1066,7 @@ nav a:hover, nav a:active, nav a:focus {
 	line-height: 170%;
 	color: #222320;
 }
+
 .col3_2_number:hover, .col3_2_number:active, .col3_2_number:focus {
 	transition: 0.3sease;
     color: #CF7B29;	
@@ -1385,7 +1335,6 @@ nav a:hover, nav a:active, nav a:focus {
 	.locals_2_count {
   		padding-bottom: 20px;
 	}
-	
 	
  	.circle-orgevents-bg {
 		width: 140%;
@@ -1828,9 +1777,6 @@ nav a:hover, nav a:active, nav a:focus {
 		.header_menu_ul {
 			font-size: 27px;
 		}
-
-
-
 
 		.contact-flex {
 			display: block;
