@@ -27,7 +27,7 @@
 (function () {
 
     const smoothScroll = function (targetEl, duration) {
-        const headerElHeight =  document.querySelector('.header').clientHeight;
+        const headerElHeight =  document.querySelector('.header').clientHeight;//если хедер не будет закреплен вверху - эту переменную нужно удалить и все всех дальнейших местах
         let target = document.querySelector(targetEl);
         let targetPosition = target.getBoundingClientRect().top - headerElHeight;
         let startPosition = window.pageYOffset;
