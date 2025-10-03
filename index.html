@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="rus">
+<html lang="ru">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,7 +60,7 @@
 		<main class="main">
 		
 			<!--Content start-->
-			<section class="content" id="home">
+			<div class="content" id="home">
 				<div class="content_offer">
 					<h1 class="content_offer_h Font-face-PlayfairDisplay-72px">
 						Организуем <span>праздник&nbsp;мечты</span>
@@ -72,11 +72,11 @@
 						Забронировать дату
 					</button>
 				</div>
-			</section>
+			</div>
 			<!--Content end-->
 			
 			<!--About start-->
-			<section class="about" id="about_us">
+			<div class="about" id="about_us">
 				<div class="about-grid">
 					<div class="about-grid-flex">
 						<div class="rest">
@@ -117,16 +117,16 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</div>
 		 	<!--About end-->
 			
 			<!--Discounts start-->
-			<section class="discounts" id="bank">
+			<div class="discounts" id="bank">
 				<div class="discounts-frame">
 					<div class="discounts-flex1">
 						<h3 class="discount_h3 Font-face-PlayfairDisplay-72px">
 							<span>Банкетные</span> предложения
-							<div class="circle-discounts-bg"></div>
+							<span class="circle-discounts-bg"></span>
 						</h3>
 						<p class="discount_text Font-face-PTRootUILight-14px">
 							При бронировании нашего ресторана для
@@ -140,11 +140,11 @@
 						<img src="img/second.png" alt="second" class="discount_second">
 					</div>
 				</div>
-			</section>
+			</div>
 			<!--Discounts end-->
 			
 			<!--Locals start-->
-			<section class="locals" id="location">
+			<div class="locals" id="location">
 				<div class="locals-bg">
 				</div>
 				<div class="locals-frame">
@@ -217,11 +217,11 @@
 						</div>	 
 					</div>
 				</div>
-			</section>
+			</div>
 			<!--Locals end-->
 			
 			<!--Kitchen start-->
-			<section class="kitchen" id="cock">
+			<div class="kitchen" id="cock">
 				<div class="kitchen-frame">
 					<div class="kitchen-frame-flex">
 						<h3 class="kitchen_h3 Font-face-PlayfairDisplay-72px">
@@ -241,11 +241,11 @@
 					</div>
 				</div>
 				<img src="img/kitchen_img.png" alt="kitchen_img" class="kitchen_img">
-			</section>
+			</div>
 			<!--Kitchen end-->
 			
 			<!--Org events start-->	
-			<section class="orgevents" id="about">
+			<div class="orgevents" id="about">
 				<div class="orgevents-frame">
 					<div class="orgevents-flex">					
 						<img src="img/orgevents_img.png" alt="orgevents_img" class="orgevents_img">
@@ -264,11 +264,11 @@
 						</div>
 					</div>
 				</div>
-			</section>		
+			</div>		
 			<!--Org event end-->
 			
 			<!--Order start-->
-			<section class="order">
+			<div class="order">
 				<div class="order-frame">
 					<div class="order-flex">
 						<h3 class="order_h3 Font-face-PlayfairDisplay-72px">
@@ -291,7 +291,7 @@
 						</p>
 					</div>	
 				</div>
-			</section>
+			</div>
 			<!--Order end-->
 
 		</main>
@@ -301,7 +301,7 @@
 		<footer>
 	
 			<!--Contact start-->
-			<section class="contact" id="#contact1">
+			<div class="contact" id="#contact1">
 				<div class="contact-frame">
 					<div class="contact-flex">
 						<div class="contact-flex-column1">
@@ -336,15 +336,11 @@
 							<p class="col3_3 Font-face-PTRootUILight-14px ">
 								Адрес: Реутов, Юбилейный проспект, 70
 							</p>
-							<a href="#order1">
-								<button class="col3_button1 Font-face-PTRootUILight-14px">
-									Забронировать дату
-								</button>
+							<a href="#order1" class="col3_button1 Font-face-PTRootUILight-14px">
+								Забронировать дату
 							</a>
-							<a href="#tel:+79683880910" id="contact1"><!--number taxi-->
-								<button class="col3_button2 Font-face-PTRootUILight-14px">
-									Вызвать такси
-								</button>
+							<a href="#tel:+79683880910" id="contact1" class="col3_button2 Font-face-PTRootUILight-14px"><!--number taxi-->
+								Вызвать такси
 							</a>
 						</div>
 						<div class="contact-flex-column4">
@@ -354,21 +350,14 @@
 							<p class="col4_2 Font-face-PTRootUILight-14px ">
 								Подписывайтесь и следите за нашими новостями!
 							</p>
-							<a href="https://vk.com/id505779703" class="AVK">
-								<button class="col4_btn_vk Font-face-PTRootUILight-14px ">
-									Вконтакте
-								</button>
+							<a href="https://vk.com/id505779703" class="AVK col4_btn_vk Font-face-PTRootUILight-14px">
+								Вконтакте
 							</a>
-							<a href="https://t.me/moto_Alexandr" class="ATG">
-								<button class="col4_btn_tg Font-face-PTRootUILight-14px ">
-									Телеграм
-								</button>
+							<a href="https://t.me/moto_Alexandr" class="col4_btn_tg Font-face-PTRootUILight-14px">
+								Телеграм
 							</a>
-							<a href="#home" class="ahome js-scroll">
-								<button class="col4_btn_up">
-									<div class="col4_btn_up_rotated">
-									</div>
-								</button>
+							<a href="#home" class="ahome js-scroll col4_btn_up">
+									<span class="col4_btn_up_rotated"></span>
 							</a>
 						</div>
 					</div>
@@ -386,7 +375,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</div>
 			<!--Contact end-->
 
 		</footer>

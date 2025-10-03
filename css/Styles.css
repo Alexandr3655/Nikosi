@@ -5,10 +5,17 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /*Обнуление CSS (HTML5 Doctor CSS Reset)*/
 html, body, div, span,
 h1, h2, h3, h4, h5, h6, p, em, img, i, ul, li, form, label, 
-table, tr, th, td, footer, header, menu, nav, section {
+table, tr, th, td, footer, header, menu, nav  {
 	margin:0;
 	padding:0;
 	border:0;
@@ -22,7 +29,7 @@ body {
 	line-height:1;
 }
 
-footer,header,menu,nav,section {
+footer,header,menu,nav {
 	display:block;
 }
 
@@ -1322,10 +1329,11 @@ nav a:hover, nav a:active, nav a:focus {
 }
 
 .col4_btn_tg {
-	margin-left: 20.5px;
+	margin-left: 15%;
 }
 
 .col4_btn_up {
+	display: block;
 	margin-top: 23px;
 	width: 55px;
 	height: 55px;
@@ -1945,6 +1953,7 @@ nav a:hover, nav a:active, nav a:focus {
 
 	.col4_btn_up {
 		margin-top: 0;
+		display: block;
 	}
 
 	.order {
